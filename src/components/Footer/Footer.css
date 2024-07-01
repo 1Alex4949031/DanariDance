@@ -22,10 +22,9 @@
 }
 
 .map-container {
-    height: 250px;
+    height: 300px;
     width: 100%;
     border: 1px solid #FFCCF1;
-    border-radius: 20px;
     overflow: hidden;
 }
 
