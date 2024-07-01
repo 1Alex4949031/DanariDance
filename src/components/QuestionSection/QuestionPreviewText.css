@@ -1,0 +1,28 @@
+.preview-text{
+    font-family: "Roboto", Helvetica, serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.text {
+    color: #FFF0FB;
+}
+
+.text-pink {
+    color: #ffa0e4;
+}
+
+
+@media (max-width: 768px) {
+    .preview-text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .preview-text {
+        font-size: 15px;
+    }
+}
+
+

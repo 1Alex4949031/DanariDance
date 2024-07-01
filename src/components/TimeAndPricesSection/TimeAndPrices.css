@@ -1,0 +1,125 @@
+.row-time-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-prices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-and-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 200px;
+}
+
+.rectangle-tp1 {
+    -webkit-backdrop-filter: blur(10px) brightness(100%);
+    backdrop-filter: blur(10px) brightness(100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border-radius: 20px;
+    position: absolute;
+    width: 95%;
+    height: 80%;
+}
+
+.ellipse-tp1 {
+    background-color: #ed65c7;
+    border-radius: 40px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ellipse-tp2 {
+    background-color: #ed65c7;
+    border-radius: 40px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.text-wrapper-tp1 {
+    margin-inline: 100px;
+    color: #ffc6ef;
+    font-family: "Roboto", Helvetica, serif;
+    font-weight: 550;
+    letter-spacing: 0;
+    line-height: 50px;
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+}
+
+@media (max-width: 1000px) and (min-width: 700px) {
+    .text-wrapper-tp1 {
+        margin-inline: 80px;
+        font-size: 50px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .time-and-price {
+        height: 150px;
+    }
+
+    .ellipse-tp1 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .ellipse-tp2 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .rectangle-tp1 {
+        height: 80%;
+    }
+
+    .text-wrapper-tp1 {
+        margin-inline: 60px;
+        font-weight: 550;
+        font-size: 40px;
+        line-height: 30px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .time-and-price {
+        height: 100px;
+    }
+
+    .ellipse-tp1 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .ellipse-tp2 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .rectangle-tp1 {
+        height: 75%;
+    }
+
+    .text-wrapper-tp1 {
+        margin-inline: 50px;
+        font-weight:550;
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+

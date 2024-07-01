@@ -1,0 +1,120 @@
+.img-girl {
+    object-fit: cover;
+    border: 2px solid #FFCCF1;
+    border-radius: 50%;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 200px;
+}
+
+.rectangle-p1 {
+    -webkit-backdrop-filter: blur(10px) brightness(100%);
+    backdrop-filter: blur(10px) brightness(100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border-radius: 20px;
+    position: absolute;
+    width: 95%;
+    height: 80%;
+}
+
+.ellipse-p1 {
+    background-color: #ed65c7;
+    border-radius: 40px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.ellipse-p2 {
+    background-color: #ed65c7;
+    border-radius: 40px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.text-wrapper-p1 {
+    margin-inline: 60px;
+    color: #ffc6ef;
+    font-family: "Roboto", Helvetica, serif;
+    font-weight: 550;
+    letter-spacing: 0;
+    line-height: 55px;
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+}
+
+@media (max-width: 1000px) and (min-width: 700px) {
+    .text-wrapper-p1 {
+        margin-inline: 40px;
+        font-size: 50px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .pictures {
+        height: 150px;
+    }
+
+    .ellipse-p1 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .ellipse-p2 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .rectangle-p1 {
+        height: 80%;
+    }
+
+    .text-wrapper-p1 {
+        margin-inline: 30px;
+        font-weight:550;
+        font-size: 40px;
+        line-height: 30px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .pictures {
+        height: 100px;
+    }
+
+    .ellipse-p1 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .ellipse-p2 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .rectangle-p1 {
+        height: 75%;
+    }
+
+    .text-wrapper-p1 {
+        margin-inline: 20px;
+        font-weight:550;
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+
+

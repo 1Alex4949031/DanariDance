@@ -1,0 +1,48 @@
+.footer {
+    width: 100%;
+    padding-bottom: 10px;
+    background: rgba(217, 217, 217, 0.1);
+}
+
+.location-title {
+    color: #fde2f1;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 35px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.location-address {
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.map-container {
+    height: 250px;
+    width: 100%;
+    border: 1px solid #FFCCF1;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .location-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .location-address {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .location-address {
+        font-size: 18px;
+    }
+}
+
