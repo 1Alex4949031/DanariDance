@@ -1,0 +1,136 @@
+.row-answer {
+    justify-content: space-around;
+}
+
+.ans-text {
+    z-index: 1;
+}
+
+.container-answers {
+    padding-top: 20px;
+}
+
+.img-girl {
+    object-fit: cover;
+    border: 2px solid #FFCCF1;
+    border-radius: 50%;
+}
+
+.ans-col {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ans-rectangle-1 {
+    padding: 3%;
+    -webkit-backdrop-filter: blur(10px) brightness(100%);
+    backdrop-filter: blur(10px) brightness(100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.ans-ellipse-1 {
+    background-color: #ed65c7;
+    border-radius: 40px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: -10%;
+    left: -3%;
+    z-index: 1;
+}
+
+.ans-ellipse-2 {
+    background-color: #ed65c7;
+    border-radius: 40px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    bottom: -10%;
+    right: -5%;
+    z-index: 1;
+}
+
+.ans-ellipse-3 {
+    background-color: #ed65c7;
+    border-radius: 40px;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: -10%;
+    right: -5%;
+    z-index: 1;
+}
+
+.ans-text-header {
+    color: #ffc6ef;
+    font-family: "Roboto", Helvetica, serif;
+    font-weight: 550;
+    letter-spacing: 0;
+    line-height: 50px;
+    font-size: 50px;
+    z-index: 3;
+}
+
+.ans-text-description {
+    align-items: start;
+    z-index: 3;
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    .ans-ellipse-1 {
+        height: 60px;
+        width: 60px;
+    }
+
+    .ans-ellipse-2 {
+        height: 60px;
+        width: 60px;
+    }
+
+    .ans-ellipse-3 {
+        height: 60px;
+        width: 60px;
+    }
+
+    .ans-text-header {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .ans-text-description {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .ans-ellipse-1 {
+        height: 45px;
+        width: 45px;
+    }
+
+    .ans-ellipse-2 {
+        height: 45px;
+        width: 45px;
+    }
+
+    .ans-ellipse-3 {
+        height: 45px;
+        width: 45px;
+    }
+
+    .ans-text-header {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .ans-text-description {
+        font-size: 15px;
+    }
+}

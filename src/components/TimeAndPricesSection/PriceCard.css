@@ -1,0 +1,93 @@
+.price-info {
+    text-align: center;
+}
+
+.price {
+    color: white;
+    line-height: 25px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.subtext-price {
+    line-height: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.price-per-month {
+    background: rgba(237, 101, 199, 0.8);
+    border-radius: 20px;
+    padding: 15px 25px;
+}
+
+.price-card {
+    padding-top: 20px;
+    -webkit-backdrop-filter: blur(10px) brightness(100%);
+    backdrop-filter: blur(10px) brightness(100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border-radius: 40px;
+}
+
+.price-title-top {
+    color: #fde2f1;
+    font-size: 32px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.price-age-top {
+    line-height: 25px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.price-days {
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFC7EF;
+}
+
+.price-time {
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFC7EF;
+}
+
+.img-price {
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #FFCCF1;
+    width: 85%;
+    height: 85%;
+}
+
+.price-per-month {
+    text-align: center;
+}
+
+@media (max-width: 1000px) and (min-width: 700px) {
+    .img-price {
+        border: 3px solid #FFCCF1;
+        width: 85%;
+        height: 85%;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-price {
+        border: 3px solid #FFCCF1;
+        width: 60%;
+        height: 60%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .img-price {
+        border: 2px solid #FFCCF1;
+        width: 70%;
+        height: 70%;
+    }
+}
