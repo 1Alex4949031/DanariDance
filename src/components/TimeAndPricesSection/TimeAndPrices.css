@@ -51,8 +51,7 @@
 .text-wrapper-tp1 {
     margin-inline: 100px;
     color: #ffc6ef;
-    font-family: "Roboto", Helvetica, serif;
-    font-weight: 550;
+    font-weight: 500;
     letter-spacing: 0;
     line-height: 50px;
     position: absolute;
@@ -89,7 +88,7 @@
 
     .text-wrapper-tp1 {
         margin-inline: 60px;
-        font-weight: 550;
+        font-weight: 500;
         font-size: 40px;
         line-height: 30px;
     }

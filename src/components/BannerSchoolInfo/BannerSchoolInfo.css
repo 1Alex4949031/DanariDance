@@ -43,8 +43,7 @@
 
 .text-wrapper {
     color: #ffc6ef;
-    font-family: "Roboto", Helvetica, serif;
-    font-weight: 550;
+    font-weight: 700;
     letter-spacing: 0;
     line-height: 50px;
     text-align: center;
@@ -52,7 +51,7 @@
 }
 
 .inside-text {
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 0;
     line-height: normal;
     font-size: 30px;

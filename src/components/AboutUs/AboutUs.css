@@ -64,8 +64,8 @@
     margin-inline: 100px;
     margin-top: 15px;
     color: #ffc6ef;
-    font-family: "Roboto", Helvetica, serif;
-    font-weight: 550;
+    font-weight: 500;
+    line-height: 65px;
     position: absolute;
     text-align: center;
     font-size: 60px;
@@ -75,8 +75,7 @@
     margin-inline: 30px;
     position: absolute;
     color: #ffc6ef;
-    font-family: "Roboto", Helvetica, serif;
-    font-weight: lighter;
+    font-weight: 400;
     text-align: center;
     font-size: 40px;
 }
@@ -93,6 +92,7 @@
     .text-wrapper-u1 {
         margin-inline: 40px;
         font-size: 50px;
+        line-height: 50px;
     }
 
     .text-wrapper-plus1n1 {
@@ -132,6 +132,7 @@
     .text-wrapper-u1 {
         margin-inline: 30px;
         font-size: 40px;
+        line-height: 40px;
     }
 
     .text-wrapper-plus1n1 {
