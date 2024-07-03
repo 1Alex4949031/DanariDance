@@ -1,5 +1,9 @@
 import React from 'react';
-import {Col, Container, Row} from "react-bootstrap";
+import {Container, Col, Row} from "react-bootstrap";
+import {Swiper, SwiperSlide} from 'swiper/react';
+import {Navigation, Keyboard} from "swiper/modules";
+import 'swiper/css';
+import 'swiper/css/navigation';
 import "./Pictures.css";
 import danariPng4 from "../../assets/img/danari4.png";
 import danariPng5 from "../../assets/img/danari5.png";
@@ -21,32 +25,39 @@ const Pictures = () => {
                     <div className="text-wrapper-p1">Наши фотографии</div>
                 </Col>
             </Row>
-            <Row className="my-3">
-                <Col xs={6} md={3} xl={3} className="my-2">
-                    <img className="img-girl" src={danariPng10} alt="DanariDance"/>
-                </Col>
-                <Col xs={6} md={3} xl={3} className="my-2">
-                    <img className="img-girl" src={danariPng11} alt="DanariDance"/>
-                </Col>
-                <Col xs={6} md={3} xl={3} className="my-2">
-                    <img className="img-girl" src={danariPng8} alt="DanariDance"/>
-                </Col>
-                <Col xs={6} md={3} xl={3} className="my-2">
-                    <img className="img-girl" src={danariPng9} alt="DanariDance"/>
-                </Col>
-                <Col xs={6} md={3} xl={3} className="my-2">
-                    <img className="img-girl" src={danariPng4} alt="DanariDance"/>
-                </Col>
-                <Col xs={6} md={3} xl={3} className="my-2">
-                    <img className="img-girl" src={danariPng5} alt="DanariDance"/>
-                </Col>
-                <Col xs={6} md={3} xl={3} className="my-2">
-                    <img className="img-girl" src={danariPng6} alt="DanariDance"/>
-                </Col>
-                <Col xs={6} md={3} xl={3} className="my-2">
-                    <img className="img-girl" src={danariPng7} alt="DanariDance"/>
-                </Col>
-            </Row>
+            <Swiper
+                slidesPerView={3}
+                spaceBetween={30}
+                loop={true}
+                navigation={true}
+                keyboard={true}
+                modules={[Navigation, Keyboard]}
+                className="my-3">
+                <SwiperSlide>
+                    <img src={danariPng10} alt="DanariDance"/>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={danariPng11} alt="DanariDance"/>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={danariPng8} alt="DanariDance"/>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={danariPng9} alt="DanariDance"/>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={danariPng4} alt="DanariDance"/>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={danariPng5} alt="DanariDance"/>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={danariPng6} alt="DanariDance"/>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={danariPng7} alt="DanariDance"/>
+                </SwiperSlide>
+            </Swiper>
         </Container>
     );
 };
