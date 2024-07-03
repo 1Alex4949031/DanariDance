@@ -61,7 +61,7 @@ export const NavBar = ({refs}) => {
                             onClick={() => onUpdateActiveLink('pictures', refs.picturesRef)}>Фото</Nav.Link>
                         <Nav.Link
                             className="navbar-link"
-                            onClick={() => onUpdateActiveLink('prices', refs.pricesRef)}>Цены</Nav.Link>
+                            onClick={() => onUpdateActiveLink('prices', refs.pricesRef)}>Расписание и Цены</Nav.Link>
                         <Nav.Link
                             className="navbar-link"
                             onClick={() => onUpdateActiveLink('place', refs.placeRef)}>Место</Nav.Link>

@@ -8,7 +8,7 @@ export const BannerSchoolInfo = () => {
     return (
         <Container className="banner">
             <Row className="row-banner">
-                <Col xs={8} md={8} xl={5}
+                <Col xs={10} md={9} xl={5}
                      className="text-rectangle order-2 order-md-2 order-xl-1 my-2">
                     <div className="ellipse"/>
                     <div className="rectangle">

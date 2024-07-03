@@ -15,7 +15,7 @@ export const TimeAndPrices = () => {
                     <div className="ellipse-tp1"/>
                     <div className="ellipse-tp2"/>
                     <div className="rectangle-tp1"/>
-                    <div className="text-wrapper-tp1">Расписание и цены занятий</div>
+                    <div className="text-wrapper-tp1">Расписание занятий и цены</div>
                 </Col>
                 <Row xs={1} md={2} xl={4} className="row-prices">
                     <PriceCard
