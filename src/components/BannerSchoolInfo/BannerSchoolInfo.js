@@ -14,7 +14,7 @@ export const BannerSchoolInfo = () => {
                     <div className="rectangle">
                         <Col className="banner-text">
                             <div className="text-wrapper">Детская школа танцев</div>
-                            <div className="inside-text">
+                            <div className="inside-text mt-2">
                                 <span className="span">Наша школа представляет </span>
                                 <span className="text-wrapper-2">уникальное</span>
                                 <span className="span"> направление в нашем городе! Эстрадно-спортивный танец!</span>
