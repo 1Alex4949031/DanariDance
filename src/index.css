@@ -1,4 +1,5 @@
 body {
+    overflow-x: hidden;
     margin: 0;
     font-family: 'Tilda Sans', sans-serif !important;
     -webkit-font-smoothing: antialiased;
