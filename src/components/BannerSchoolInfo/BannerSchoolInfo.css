@@ -43,7 +43,7 @@
 
 .text-wrapper {
     color: #ffc6ef;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: 0;
     line-height: 50px;
     text-align: center;
@@ -63,6 +63,7 @@
 
 .text-wrapper-2 {
     color: #ffa0e4;
+    font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -93,6 +94,6 @@
     }
 
     .inside-text {
-        font-size: 15px;
+        font-size: 17px;
     }
 }
