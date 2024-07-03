@@ -22,28 +22,28 @@ const Pictures = () => {
                 </Col>
             </Row>
             <Row className="my-3">
-                <Col xs={12} md={3} xl={3} className="my-2">
+                <Col xs={6} md={3} xl={3} className="my-2">
                     <img className="img-girl" src={danariPng4} alt="DanariDance"/>
                 </Col>
-                <Col xs={12} md={3} xl={3} className="my-2">
+                <Col xs={6} md={3} xl={3} className="my-2">
                     <img className="img-girl" src={danariPng5} alt="DanariDance"/>
                 </Col>
-                <Col xs={12} md={3} xl={3} className="my-2">
+                <Col xs={6} md={3} xl={3} className="my-2">
                     <img className="img-girl" src={danariPng6} alt="DanariDance"/>
                 </Col>
-                <Col xs={12} md={3} xl={3} className="my-2">
+                <Col xs={6} md={3} xl={3} className="my-2">
                     <img className="img-girl" src={danariPng7} alt="DanariDance"/>
                 </Col>
-                <Col xs={12} md={3} xl={3} className="my-2">
+                <Col xs={6} md={3} xl={3} className="my-2">
                     <img className="img-girl" src={danariPng8} alt="DanariDance"/>
                 </Col>
-                <Col xs={12} md={3} xl={3} className="my-2">
+                <Col xs={6} md={3} xl={3} className="my-2">
                     <img className="img-girl" src={danariPng9} alt="DanariDance"/>
                 </Col>
-                <Col xs={12} md={3} xl={3} className="my-2">
+                <Col xs={6} md={3} xl={3} className="my-2">
                     <img className="img-girl" src={danariPng10} alt="DanariDance"/>
                 </Col>
-                <Col xs={12} md={3} xl={3} className="my-2">
+                <Col xs={6} md={3} xl={3} className="my-2">
                     <img className="img-girl" src={danariPng11} alt="DanariDance"/>
                 </Col>
             </Row>
