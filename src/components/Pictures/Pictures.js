@@ -26,7 +26,21 @@ const Pictures = () => {
                 </Col>
             </Row>
             <Swiper
-                slidesPerView={3}
+                slidesPerView={1}
+                breakpoints={{
+                    640: {
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                    },
+                    768: {
+                        slidesPerView: 3,
+                        spaceBetween: 25,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                    },
+                }}
                 spaceBetween={30}
                 loop={true}
                 navigation={true}
