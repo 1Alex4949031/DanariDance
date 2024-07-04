@@ -23,7 +23,7 @@ export const BannerSchoolInfo = () => {
                     </div>
                 </Col>
                 <Col
-                    xs={11} md={8} xl={6} className="children order-1 order-md-1 order-xl-2 my-2">
+                    xs={11} md={8} xl={5} className="children order-1 order-md-1 order-xl-2 my-2">
                     <img src={children} alt='Sphere'/>
                 </Col>
             </Row>

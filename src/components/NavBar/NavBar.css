@@ -1,15 +1,3 @@
-.nav-phone {
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 20px;
-    color: white;
-}
-
-.fio {
-    font-weight: lighter;
-    font-size: 12px;
-}
-
 nav.navbar {
     padding: 18px 0;
     position: fixed;
@@ -187,12 +175,43 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     border-color: transparent;
 }
 
-@media (max-width: 320px) {
+.nav-phone {
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.fio {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+
+@media (max-width: 1200px) and (min-width: 990px) {
     .nav-phone {
+        letter-spacing: 1px;
+        font-weight: bold;
         font-size: 15px;
+        color: white;
     }
 
     .fio {
-        font-size: 8px;
+        font-weight: lighter;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 370px) {
+    .nav-phone {
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+    }
+
+    .fio {
+        font-weight: lighter;
+        font-size: 10px;
     }
 }
