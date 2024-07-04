@@ -36,16 +36,28 @@ export const NavBar = ({refs}) => {
         setNavExpanded(expanded);
     };
 
+    const phoneNumber = "+7(996)380-24-45";
+    const copyToClipboard = () => {
+        navigator.clipboard.writeText(phoneNumber)
+            .then(() => {
+                alert('Номер телефона скопирован в буфер обмена!');
+            })
+            .catch((err) => {
+                console.error('Ошибка копирования: ', err);
+            });
+    };
+
     return (
-        <Navbar expand="lg" className={navExpanded || scrolled ? "expanded" : ""} onToggle={handleNavToggle} expanded={navExpanded}>
+        <Navbar expand="lg" className={navExpanded || scrolled ? "expanded" : ""} onToggle={handleNavToggle}
+                expanded={navExpanded}>
             <Container className="navbar-container d-flex align-items-center">
                 <Navbar.Brand>
                     <img src={logo} alt="Logo" className='logo'
                          onClick={() => onUpdateActiveLink('home', refs.homeRef)}/>
                 </Navbar.Brand>
-                <Col className="nav-phone">
-                    <div className="nav-phone">
-                        +7(996)380-24-45
+                <Col>
+                    <div className="nav-phone" onClick={copyToClipboard}>
+                        {phoneNumber}
                     </div>
                     <div className="fio">
                         Арина Сергеевна Даниленко
