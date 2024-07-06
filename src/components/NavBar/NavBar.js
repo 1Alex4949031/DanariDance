@@ -37,7 +37,8 @@ export const NavBar = ({refs}) => {
     };
 
     return (
-        <Navbar expand="lg" className={navExpanded || scrolled ? "expanded" : ""} onToggle={handleNavToggle} expanded={navExpanded}>
+        <Navbar expand="lg" className={navExpanded || scrolled ? "expanded" : ""} onToggle={handleNavToggle}
+                expanded={navExpanded}>
             <Container className="navbar-container d-flex align-items-center">
                 <Navbar.Brand>
                     <img src={logo} alt="Logo" className='logo'
@@ -58,10 +59,10 @@ export const NavBar = ({refs}) => {
                     <Nav className="me-auto">
                         <Nav.Link
                             className="navbar-link"
-                            onClick={() => onUpdateActiveLink('pictures', refs.picturesRef)}>Фото</Nav.Link>
+                            onClick={() => onUpdateActiveLink('prices', refs.pricesRef)}>Расписание и Цены</Nav.Link>
                         <Nav.Link
                             className="navbar-link"
-                            onClick={() => onUpdateActiveLink('prices', refs.pricesRef)}>Расписание и Цены</Nav.Link>
+                            onClick={() => onUpdateActiveLink('pictures', refs.picturesRef)}>Фото</Nav.Link>
                         <Nav.Link
                             className="navbar-link"
                             onClick={() => onUpdateActiveLink('place', refs.placeRef)}>Место</Nav.Link>

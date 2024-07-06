@@ -6,6 +6,7 @@ import danari12 from "../../assets/img/danari12.png"
 import danari13 from "../../assets/img/danari13.png"
 import danari14 from "../../assets/img/danari14.png"
 import danari15 from "../../assets/img/danari15.png"
+import danari16 from "../../assets/img/danari16.png"
 
 export const TimeAndPrices = () => {
     return (
@@ -21,37 +22,46 @@ export const TimeAndPrices = () => {
                     <PriceCard
                         title="Начинающая группа"
                         age="4-7 лет"
-                        time="17:00 - 18:00"
+                        time="18:00 - 19:00"
                         days="Понедельник, Среда, Пятница"
-                        price="3800Р"
+                        price="4200₽"
                         subtextPrice="в месяц"
                         imgSrc={danari12}
                     />
                     <PriceCard
-                        title="Продолжающая группа"
-                        age="7-11 лет"
-                        time="18:00 - 20:00"
+                        title="Утренние тренировки"
+                        age="7-12 лет"
+                        time="9:00 - 11:00"
                         days="Понедельник, Среда, Пятница"
-                        price="4500Р"
+                        price="5000₽"
                         subtextPrice="в месяц"
                         imgSrc={danari14}
                     />
                     <PriceCard
-                        title="Утренняя группа"
-                        age="10-14 лет"
-                        time="17:00 - 18:00"
-                        days="Вторник, Четверг"
-                        price="4200Р"
+                        title="Дневные тренировки"
+                        age="7-12 лет"
+                        time="16:30 - 18:00"
+                        days="Понедельник, Среда, Пятница"
+                        price="4500₽"
                         subtextPrice="в месяц"
                         imgSrc={danari13}
+                    />
+                    <PriceCard
+                        title="Вечерние тренировки"
+                        age="7-14 лет"
+                        time="19:00 - 20:30"
+                        days="Понедельник, Среда, Пятница"
+                        price="4500₽"
+                        subtextPrice="в месяц"
+                        imgSrc={danari16}
                     />
                     <PriceCard
                         title="Индивидуальное занятие"
                         age="Любой возраст"
                         time="10:00 - 22:00"
                         days="Вся неделя"
-                        price="1200Р"
-                        subtextPrice="за тренировку"
+                        price="1300₽"
+                        subtextPrice="за час"
                         imgSrc={danari15}
                     />
                 </Row>

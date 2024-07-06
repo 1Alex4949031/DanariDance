@@ -97,3 +97,11 @@
         height: 70%;
     }
 }
+
+@media (max-width: 1200px) and (min-width: 990px) {
+    .price-title-top {
+        font-size: 30px;
+        line-height: 25px;
+        font-weight: 700;
+    }
+}
