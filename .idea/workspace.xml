@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90c87083-fe58-4434-875e-a38a98ab3ce8" name="Changes" comment="refactor: some changes">
+      <change beforePath="$PROJECT_DIR$/src/components/Pictures/Pictures.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pictures/Pictures.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TimeAndPricesSection/TimeAndPrices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TimeAndPricesSection/TimeAndPrices.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2VytQx0dYV47cuxmisGXCjoz0mf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "feature/prices-fix",
+    "last_opened_file_path": "C:/Users/coola/ReactApp/DanariDance",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.tools",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\coola\ReactApp\my-app\public" />
+      <recent name="C:\Users\coola\ReactApp\my-app\src\assets\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\coola\ReactApp\my-app\src\components\NavBar" />
+      <recent name="C:\Users\coola\ReactApp\my-app\src\components\BannerSchoolInfo" />
+      <recent name="C:\Users\coola\ReactApp\my-app\src\components\Card" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90c87083-fe58-4434-875e-a38a98ab3ce8" name="Changes" comment="" />
+      <created>1695820137822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695820137822</updated>
+      <workItem from="1695820138798" duration="2893000" />
+      <workItem from="1695874823708" duration="8000" />
+      <workItem from="1695893634354" duration="3277000" />
+      <workItem from="1695981894081" duration="2867000" />
+      <workItem from="1696006716483" duration="9000" />
+      <workItem from="1696072162767" duration="96000" />
+      <workItem from="1696072281769" duration="4039000" />
+      <workItem from="1696164633748" duration="883000" />
+      <workItem from="1696494737038" duration="7640000" />
+      <workItem from="1696514810933" duration="3238000" />
+      <workItem from="1696564743291" duration="228000" />
+      <workItem from="1696569387023" duration="1809000" />
+      <workItem from="1696611594374" duration="265000" />
+      <workItem from="1696665476788" duration="1866000" />
+      <workItem from="1696743015091" duration="619000" />
+      <workItem from="1696926444720" duration="492000" />
+      <workItem from="1696948082453" duration="3926000" />
+      <workItem from="1697006793355" duration="845000" />
+      <workItem from="1697009741749" duration="5025000" />
+      <workItem from="1697018231633" duration="5885000" />
+      <workItem from="1697089347902" duration="16206000" />
+      <workItem from="1697163100002" duration="6152000" />
+      <workItem from="1697188550045" duration="6266000" />
+      <workItem from="1697695187658" duration="28000" />
+      <workItem from="1697780850852" duration="1730000" />
+      <workItem from="1697855311943" duration="3888000" />
+      <workItem from="1697907598842" duration="698000" />
+      <workItem from="1697908333151" duration="3456000" />
+      <workItem from="1697952321643" duration="5572000" />
+      <workItem from="1698047240044" duration="653000" />
+      <workItem from="1698071499611" duration="2001000" />
+      <workItem from="1698120648999" duration="4022000" />
+      <workItem from="1698134036952" duration="2959000" />
+      <workItem from="1698140663629" duration="656000" />
+      <workItem from="1698144661784" duration="3222000" />
+      <workItem from="1698159477934" duration="2743000" />
+      <workItem from="1698208319364" duration="28000" />
+      <workItem from="1698222049609" duration="967000" />
+      <workItem from="1698223679860" duration="2624000" />
+      <workItem from="1698228040151" duration="30000" />
+      <workItem from="1698471190979" duration="201000" />
+      <workItem from="1698500270821" duration="106000" />
+      <workItem from="1699628794712" duration="774000" />
+      <workItem from="1700109964086" duration="17000" />
+      <workItem from="1719072080519" duration="2407000" />
+      <workItem from="1719083013001" duration="4858000" />
+      <workItem from="1719111251835" duration="3388000" />
+      <workItem from="1719129766623" duration="487000" />
+      <workItem from="1719740851036" duration="1377000" />
+      <workItem from="1719743322992" duration="2380000" />
+      <workItem from="1719746752486" duration="15726000" />
+      <workItem from="1719848316135" duration="31000" />
+      <workItem from="1719848347734" duration="6000" />
+      <workItem from="1719848649818" duration="921000" />
+      <workItem from="1719849605534" duration="321000" />
+      <workItem from="1719849984471" duration="32000" />
+      <workItem from="1719850024559" duration="96000" />
+      <workItem from="1719850209489" duration="41000" />
+      <workItem from="1719850256913" duration="59000" />
+      <workItem from="1719850327492" duration="5545000" />
+      <workItem from="1719893070508" duration="14710000" />
+      <workItem from="1720017761845" duration="4767000" />
+      <workItem from="1720094869568" duration="5865000" />
+      <workItem from="1720269458585" duration="4141000" />
+      <workItem from="1755413048252" duration="1297000" />
+    </task>
+    <task id="LOCAL-00001" summary="feature: initial commit">
+      <option name="closed" value="true" />
+      <created>1719850438138</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719850438138</updated>
+    </task>
+    <task id="LOCAL-00002" summary="refactor: small fixes">
+      <option name="closed" value="true" />
+      <created>1719850782602</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719850782602</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feature: new font TildaSans">
+      <option name="closed" value="true" />
+      <created>1719853735812</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719853735812</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feature: copy phone number onClick">
+      <option name="closed" value="true" />
+      <created>1719854402713</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719854402713</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feature: copy phone number onClick">
+      <option name="closed" value="true" />
+      <created>1719854622348</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719854622348</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feature: change adaptive for pictures section">
+      <option name="closed" value="true" />
+      <created>1719986690122</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719986690122</updated>
+    </task>
+    <task id="LOCAL-00007" summary="style: change pictures">
+      <option name="closed" value="true" />
+      <created>1720003755332</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720003755332</updated>
+    </task>
+    <task id="LOCAL-00008" summary="refactor: change pictures">
+      <option name="closed" value="true" />
+      <created>1720009234551</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720009234551</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactor: change Picture.js">
+      <option name="closed" value="true" />
+      <created>1720020329191</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720020329191</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix: adaptive for Pictures section">
+      <option name="closed" value="true" />
+      <created>1720021447603</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720021447603</updated>
+    </task>
+    <task id="LOCAL-00011" summary="refactor: overflow-x hidden">
+      <option name="closed" value="true" />
+      <created>1720022097179</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720022097179</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix: some common fixes">
+      <option name="closed" value="true" />
+      <created>1720101791568</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720101791568</updated>
+    </task>
+    <task id="LOCAL-00013" summary="refactor: some changes">
+      <option name="closed" value="true" />
+      <created>1720272664133</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720272664133</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feature: initial commit" />
+    <MESSAGE value="refactor: small fixes" />
+    <MESSAGE value="feature: new font TildaSans" />
+    <MESSAGE value="feature: copy phone number onClick" />
+    <MESSAGE value="feature: change adaptive for pictures section" />
+    <MESSAGE value="style: change pictures" />
+    <MESSAGE value="refactor: change pictures" />
+    <MESSAGE value="refactor: change Picture.js" />
+    <MESSAGE value="fix: adaptive for Pictures section" />
+    <MESSAGE value="refactor: overflow-x hidden" />
+    <MESSAGE value="fix: some common fixes" />
+    <MESSAGE value="refactor: some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: some changes" />
+  </component>
+</project>
