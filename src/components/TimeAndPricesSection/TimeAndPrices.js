@@ -24,7 +24,7 @@ export const TimeAndPrices = () => {
                         age="4-7 лет"
                         time="18:00 - 19:00"
                         days="Понедельник, Среда, Пятница"
-                        price="4200₽"
+                        price="4500₽"
                         subtextPrice="в месяц"
                         imgSrc={danari12}
                     />
@@ -33,7 +33,7 @@ export const TimeAndPrices = () => {
                         age="7-12 лет"
                         time="9:00 - 11:00"
                         days="Понедельник, Среда, Пятница"
-                        price="5000₽"
+                        price="5300₽"
                         subtextPrice="в месяц"
                         imgSrc={danari14}
                     />
@@ -42,7 +42,7 @@ export const TimeAndPrices = () => {
                         age="7-12 лет"
                         time="16:30 - 18:00"
                         days="Понедельник, Среда, Пятница"
-                        price="4500₽"
+                        price="4800₽"
                         subtextPrice="в месяц"
                         imgSrc={danari13}
                     />
@@ -51,7 +51,7 @@ export const TimeAndPrices = () => {
                         age="7-14 лет"
                         time="19:00 - 20:30"
                         days="Понедельник, Среда, Пятница"
-                        price="4500₽"
+                        price="4800₽"
                         subtextPrice="в месяц"
                         imgSrc={danari16}
                     />
@@ -60,7 +60,7 @@ export const TimeAndPrices = () => {
                         age="Любой возраст"
                         time="10:00 - 22:00"
                         days="Вся неделя"
-                        price="1300₽"
+                        price="1500₽"
                         subtextPrice="за час"
                         imgSrc={danari15}
                     />
